@@ -2,6 +2,8 @@
 
 This document aims to define how we develop projects from a technical point of view. 
 This includes technologies, toolsets, methodologies, and approaches accepted by Trembit. 
+
+
 In the end, we want to use this document to speed up onboarding, share expertise among our team, and showcase how we work to candidates and customers.
 
 ## Content
