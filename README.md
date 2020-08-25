@@ -6,8 +6,8 @@ In the end, we want to use this document to speed up onboarding, share expertise
 
 ## Content
 
-1. [Basics](basic/basic.md)
-1. [How to work with Github](basic/howto-github.md)
+1. [Basics](basics/basics.md)
+1. [How to work with Github](basics/howto-github.md)
 1. Technologies
     - [Angular](technologies/angular.md)
     - [NodeJS](technologies/nodejs.md)
