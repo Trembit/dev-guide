@@ -19,7 +19,7 @@ As part of GitFlow we do code review. Short lsit of best practices:
 
 https://docs.google.com/presentation/d/1rJuyPNr3zpqy08R70jItQYCcLfIKpEottUp7bILMp2g/edit#slide=id.p
 
-## Dealing with credentials or sencial data
+## Dealing with credentials or sensitive data
 Global practice is not to put credentials to repo. However we split credentials in 2 types: production ones and development ones. For operational simplicity reason,  if that didn't conflict with GDPR or data security, development credentials can be put into repository. In that way it could be easier to onboard newscomers and switch between projects.
 Projection credentials should never be put into code repository or JIRA. Use private slack channels or LastPass for that.
 # How to work with Github
