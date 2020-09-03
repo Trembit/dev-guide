@@ -23,3 +23,11 @@ https://docs.google.com/presentation/d/1rJuyPNr3zpqy08R70jItQYCcLfIKpEottUp7bILM
 Global practice is not to put credentials to repo. However we split credentials in 2 types: production ones and development ones. For operational simplicity reason,  if that didn't conflict with GDPR or data security, development credentials can be put into repository. In that way it could be easier to onboard newscomers and switch between projects.
 Production env credentials should never be put into code repository or JIRA. Use private slack channels or LastPass for that.
 
+## Other
+
+- If you need UI client for Git, use SourceTree or Idea IDE. It almost possible to avoid command line _git_ usage with these tools;
+- Never use --force option for any Git command;
+- There should be a _README.md_ file in the root of repository;
+- There should be a _.gitignore_ file in the root of repository;
+- The `master` branch should be push protected. PRs should be used to change that branch;
+- code re-format, large refactoring should be confirmed with a team in advance to avoid merge conflicts for other team members;
