@@ -8,8 +8,8 @@ A newcomer should be able to launch a local development environment easily with 
 We stick to standard development workflow inspired by Gitflow [Link 1](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow), [Link 2](https://nvie.com/posts/a-successful-git-branching-model/)
 Teams are responsible to follow best practices but able to slightly modify rules having a vague reason for that.
 
-## Code Review
-As part of GitFlow we do code review. Short lsit of best practices:
+## Pull Requests and Code Review
+As part of GitFlow we use Pull Requests and Code Review. Short lsit of best practices:
  - put a JIRA ticket reference into PR title to help find a corresponded JIRA ticket;
  - put meangful description of what changed, and why it is implemented like that if that is not obvious;
  - if that GUI change - please put screenshots of how it looked before and after the change;
@@ -17,6 +17,7 @@ As part of GitFlow we do code review. Short lsit of best practices:
     - If there are changes that are not related to the ticket's goal, then reviewer might request to create a separate PR to simplify review and to avoid extra risk merging that PR;
     - If there are plenty of changes, for instance after mass rename action, author should mention what changes can be skipped and what should gain more attention from reviewers. Github has comments feature for this.
 
+Presentation from our meetup:
 https://docs.google.com/presentation/d/1rJuyPNr3zpqy08R70jItQYCcLfIKpEottUp7bILMp2g/edit#slide=id.p
 
 ## Dealing with credentials or sensitive data
