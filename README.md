@@ -13,6 +13,7 @@ In the end, we want to use this document to speed up onboarding, share expertise
 1. Technologies
     - [Angular](technologies/angular.md)
     - [NodeJS](technologies/nodejs.md)
+    - [Bash](technologies/bash.md)
 1. [Deployment](basics/deployment.md)
 1. Architecture
 
